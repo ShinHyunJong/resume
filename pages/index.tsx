@@ -8,6 +8,10 @@ const Home: NextPage = () => {
       <Head>
         <title>신현종 이력서</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap"
+          rel="stylesheet"
+        ></link>
       </Head>
       <div className="flex flex-col">
         <div className="flex flex-col">
