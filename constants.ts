@@ -116,4 +116,13 @@ export const projects = [
     did: '· Daum, Naver API 를 통한 코인 종목별 뉴스 기사에 SNS기능 탑재',
     techStack: 'React, Node.js, express, MongoDB',
   },
+  {
+    id: 4,
+    name: 'HOOAH!U',
+    position: 'Front-End Engineer',
+    period: '2016. 11 ~ 2017.06',
+    description: '주한 미군을 위한 한국 관광 가이드 플랫폼',
+    did: '· 클라이언트 설계 및 개발',
+    techStack: 'React, Node.js, express, MongoDB',
+  },
 ];

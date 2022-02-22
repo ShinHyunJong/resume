@@ -4,7 +4,7 @@ import { projects, workExperience } from '../constants';
 
 const Home: NextPage = () => {
   return (
-    <div className="max-w-2xl px-4 mx-auto py-10">
+    <div className="max-w-4xl px-4 mx-auto py-10">
       <Head>
         <title>신현종 이력서</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
@@ -12,6 +12,7 @@ const Home: NextPage = () => {
           href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap"
           rel="stylesheet"
         ></link>
+        <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="flex flex-col">
         <div className="flex flex-col">
@@ -111,10 +112,29 @@ const Home: NextPage = () => {
             );
           })}
         </div>
-        <div className="flex flex-col">
-          <h1 className="text-2xl font-bold py-5 text-blue-700">수상 내역</h1>
-          <p>· 한양대학교 에리카 캠퍼스 교내 셔틀콕 서비스 공로상</p>
-          <p>· 한양대학교 에리카 캠퍼스 교내 소프트웨어 해커톤 은상</p>
+        <div className="flex flex-col border-b border-solid border-gray-300 py-8">
+          <h1 className="text-2xl font-bold  text-blue-700 mb-4">수상 내역</h1>
+          <p className="font-bold">
+            · 한양대학교 에리카 캠퍼스 교내 셔틀콕 서비스 공로상
+          </p>
+          <p className="font-bold">
+            · 한양대학교 에리카 캠퍼스 교내 소프트웨어 해커톤 은상
+          </p>
+        </div>
+        <div className="flex flex-col border-b border-solid border-gray-300 py-8">
+          <h1 className="text-2xl font-bold  text-blue-700 mb-4">Contacts</h1>
+          <a className="font-bold">· 이메일(pleiades9638@gmail.com)</a>
+          <a
+            target="_blank"
+            href="https://github.com/ShinHyunJong"
+            className="font-bold"
+            rel="noreferrer"
+          >
+            · 깃허브(https://github.com/ShinHyunJong)
+          </a>
+          <a href="tel:01077129638" className="font-bold">
+            · 010-7712-9638
+          </a>
         </div>
       </div>
     </div>
