@@ -133,7 +133,7 @@ const Home: NextPage = () => {
             · 깃허브(https://github.com/ShinHyunJong)
           </a>
           <a href="tel:01077129638" className="font-bold">
-            · 010-7712-9638
+            · H.P(010-7712-9638)
           </a>
         </div>
       </div>
