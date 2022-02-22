@@ -11,7 +11,7 @@ export const workExperience = [
         description:
           '교육 성장 플랫폼, 디스코드와 같은 채팅 플랫폼의 교육 버전 개발',
         period: '2021. 09 ~ 현재',
-        did: '· 일렉트론 \n · 웹소켓 \n · 클라이언트, 서버 설계 및 개발',
+        did: '· Electron \n · WebSocket \n · 클라이언트, 서버 설계 및 개발',
         techStack:
           'React, Electron, SWR, Next.js, Typescript / Node.js, express, serverless, lambda',
       },
