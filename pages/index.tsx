@@ -8,11 +8,6 @@ const Home: NextPage = () => {
       <Head>
         <title>신현종 이력서</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap"
-          rel="stylesheet"
-        ></link>
-        <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="flex flex-col">
         <div className="flex flex-col">
@@ -60,7 +55,7 @@ const Home: NextPage = () => {
                           className="mb-4 whitespace-pre-line"
                         >
                           <div className="mb-2">
-                            <p className="text-2xl font-bold">#{y.name}</p>
+                            <p className="text-2xl font-bold">{y.name}</p>
                             <p>{y.period}</p>
                           </div>
                           <div className="py-2">
@@ -93,7 +88,7 @@ const Home: NextPage = () => {
                 className="mb-4 whitespace-pre-line border-b border-solid border-gray-300 py-4"
               >
                 <div className="mb-2">
-                  <p className="text-2xl font-bold">#{x.name}</p>
+                  <p className="text-2xl font-bold">{x.name}</p>
                   <p>{x.period}</p>
                 </div>
                 <div className="py-2">
