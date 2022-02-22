@@ -11,7 +11,7 @@ export const workExperience = [
         description:
           '교육 성장 플랫폼, 디스코드와 같은 채팅 플랫폼의 교육 버전 개발',
         period: '2021. 09 ~ 현재',
-        did: '· Electron \n · WebSocket \n · 클라이언트, 서버 설계 및 개발',
+        did: '· Electron-builder을 이용해 mac, windows 데스크톱앱 구축 \n · WebSocket을 이용한 실시간 기능\n · 클라이언트, 서버 설계 및 개발',
         techStack:
           'React, Electron, SWR, Next.js, Typescript / Node.js, express, serverless, lambda',
       },
@@ -21,7 +21,7 @@ export const workExperience = [
         description:
           '학부모와 교육 컨설턴트들을 매칭시켜 컨설팅 날짜와 시간을 예약해주는 플랫폼과, 컨설턴트들의 컨설팅 예약, 정산, 상담내역을 관리할 수 있는 시스템 개발',
         period: '2019. 11 ~ 2021. 02',
-        did: '· 결제 연동 및 예약시스템 개발\n · 컨설팅을 하기 전 구글폼과 같은 설문 시스템 개발 \n · Github Actions를 통한 CI',
+        did: '· 외부 결제 API 연동 및 예약시스템 개발\n · 컨설팅을 하기 전 구글폼과 같은 설문 시스템 개발 \n · Github Actions를 통한 CI',
         techStack:
           'React, React Redux, Redux-Saga, Next.js / Node.js, express, serverless, lambda',
       },
