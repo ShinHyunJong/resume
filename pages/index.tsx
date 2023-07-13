@@ -31,7 +31,7 @@ const Home: NextPage = () => {
       <div className="flex flex-col">
         <h1 className="text-2xl font-bold py-5 text-blue-700">학력</h1>
         <p className="text-lg">
-          · 한양대학교 에리카 캠퍼스 소프트웨어 학부 졸업
+          · 한양대학교 소프트웨어 학부 졸업
         </p>
         <h1 className="text-2xl font-bold py-5 text-blue-700">경력</h1>
         <div className="flex flex-col">
