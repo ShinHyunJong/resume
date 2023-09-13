@@ -1,5 +1,30 @@
 export const workExperience = [
   {
+    id: 4,
+    name: '(주)라온데이터',
+    position: 'CIO',
+    period: '2023. 04 ~ 현재',
+    projects: [
+      {
+        id: 'kevas',
+        name: '경남에너지 VOC AI 분석 시스템',
+        description: 'AI를 활용한 VOC분석 시스템',
+        period: '2023. 04 ~ 현재',
+        did: '· 네트워크 그래프를 통한 데이터 시각화 \n · 키워드 추출\n · 클라이언트, 서버 설계 및 개발',
+        techStack: 'React / Fast API, Docker, Kubernetes, MongoDB, Neo4j',
+      },
+      {
+        id: 'alpharetina',
+        name: '한길 안과 병원 망막 질환 예측 AI 시스템',
+        description:
+          '안과 의사들이 환자들의 망막사진을 통해 질병 위치를 예측할 수 있는 시스템',
+        period: '2023. 04 ~ 현재',
+        did: '· 망막 사진 최적화 및 시스템 설계 \n · Github Actions를 통한 CI',
+        techStack: 'React / Nest.js, Docker, Pytorch',
+      },
+    ],
+  },
+  {
     id: 0,
     name: '(주)풀릿',
     position: '대표이사 및 CTO',
@@ -10,7 +35,7 @@ export const workExperience = [
         name: '베로',
         description:
           '교육 성장 플랫폼, 디스코드와 같은 채팅 플랫폼의 교육 버전 개발',
-        period: '2021. 09 ~ 현재',
+        period: '2021. 09 ~ 2022 . 01',
         did: '· Electron-builder을 이용해 mac, windows 데스크톱앱 구축 \n · WebSocket을 이용한 실시간 기능\n · 클라이언트, 서버 설계 및 개발',
         techStack:
           'React, Electron, SWR, Next.js, Typescript / Node.js, express, serverless, lambda',
@@ -27,7 +52,7 @@ export const workExperience = [
       },
       {
         id: 'canvas',
-        name: '풀릿 캔버스',
+        name: '풀릿 캔버스(운영중)',
         description: '오프라인 학원에서 이용하는 학습 관리 시스템 개발\n',
         did: '· tus를 이용한 영상 업로드, 과제 등 파일 업로드\n · 학습 성적 데이터를 이용한 통계 및 학부모 알림 서비스\n · 온라인 테스트 시스템',
         techStack:
@@ -43,7 +68,7 @@ export const workExperience = [
     projects: [
       {
         id: 'dateplaylist',
-        name: '데플리',
+        name: '데플리(IOS 출시)',
         description:
           '연인과 친구들 가족들을 위한 데이트 플랫폼 클라이언트 및 서버 개발',
         period: '2021. 06 ~ 2022. 01',
