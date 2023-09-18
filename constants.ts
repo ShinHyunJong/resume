@@ -10,8 +10,8 @@ export const workExperience = [
         name: '경남에너지 VOC AI 분석 시스템',
         description: 'AI를 활용한 VOC분석 시스템',
         period: '2023. 04 ~ 현재',
-        did: '· 네트워크 그래프를 통한 데이터 시각화 \n · 키워드 추출\n · 클라이언트, 서버 설계 및 개발',
-        techStack: 'React / Fast API, Docker, Kubernetes, MongoDB, Neo4j',
+        did: '· 네트워크 그래프를 통한 데이터 시각화 \n · 커뮤니티 인식\n · 클라이언트 설계 및 개발',
+        techStack: 'React, Graphology, D3.js',
       },
       {
         id: 'alpharetina',
@@ -19,8 +19,8 @@ export const workExperience = [
         description:
           '안과 의사들이 환자들의 망막사진을 통해 질병 위치를 예측할 수 있는 시스템',
         period: '2023. 04 ~ 현재',
-        did: '· 망막 사진 최적화 및 시스템 설계 \n · Github Actions를 통한 CI',
-        techStack: 'React / Nest.js, Docker, Pytorch',
+        did: '시스템 설계',
+        techStack: 'React / Nest.js',
       },
     ],
   },
