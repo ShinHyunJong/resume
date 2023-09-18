@@ -11,8 +11,8 @@ const Home: NextPage = () => {
       </Head>
       <div className="flex flex-col">
         <div className="flex flex-col">
-          <h1 className="text-[40px]">방문해주셔서 감사합니다.</h1>
-          <h1 className="text-[55px] font-bold">신현종입니다.</h1>
+          <h1 className="text-[40px]">HyunJong, Shin</h1>
+          <h1 className="text-[55px] font-bold">신현종</h1>
         </div>
       </div>
       <div className="flex flex-col">
